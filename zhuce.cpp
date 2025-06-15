@@ -73,7 +73,7 @@ bool zhuce::checkInput()
         return false;
     }
 
-    // 身份证号码的有效位数
+    // 密码的有效位数
     if (password.length()<=6){
         QMessageBox::warning(this, "格式错误", "密码强度过低，请输入大于六位的密码");
         return false;
