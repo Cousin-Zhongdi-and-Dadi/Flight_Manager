@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/background_delete.jpg</file>
+        <file>img/bgground2.png</file>
+        <file>img/icon.1.png</file>
+        <file>img/icon.2.png</file>
+        <file>img/icon.3.png</file>
+        <file>img/icon.4.png</file>
+        <file>img/icon.5.svg</file>
+        <file>img/icon.7.png</file>
+        <file>img/icon.8.png</file>
+        <file>img/icon.9.png</file>
+        <file>img/icon.10.png</file>
+        <file>img/icon.12.jpg</file>
+        <file>img/icon.13.jpg</file>
+        <file>img/icon.14.jpg</file>
+        <file>img/icon.15.jpg</file>
+        <file>img/icon.16.jpg</file>
+        <file>img/W020231016579105375107.png</file>
+        <file>img/icon.11.png</file>
+        <file>img/zhuce.jpg</file>
+        <file>img/denglu.png</file>
+        <file>img/search.png</file>
+        <file>img/panel.png</file>
+        <file>img/denglu2.png</file>
+        <file>img/touxiang.jpeg</file>
+    </qresource>
+</RCC>

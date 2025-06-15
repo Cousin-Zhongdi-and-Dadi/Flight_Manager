@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Special_search</class>
+ <widget class="QWidget" name="Special_search">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1070</width>
+    <height>611</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-90</x>
+     <y>0</y>
+     <width>1161</width>
+     <height>608</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>110</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>特价航班</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEditChu">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>170</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: none</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>170</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { background-color: rgb(233, 28, 35); border-radius: 3px; color: rgb(255, 255, 255); } 
+QPushButton:hover { background-color:rgb(255, 32, 36); }
+</string>
+   </property>
+   <property name="text">
+    <string>搜索</string>
+   </property>
+   <property name="icon">
+    <iconset theme="audio-card"/>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>270</y>
+     <width>1011</width>
+     <height>271</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1100</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+background-color: rgb(242, 242, 242);</string>
+   </property>
+   <property name="autoScrollMargin">
+    <number>16</number>
+   </property>
+   <property name="rowCount">
+    <number>0</number>
+   </property>
+   <property name="columnCount">
+    <number>11</number>
+   </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>10</number>
+   </attribute>
+   <attribute name="verticalHeaderMinimumSectionSize">
+    <number>18</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>29</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>目的地</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>航班号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>航空公司</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>机型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>起飞时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>起飞机场</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>到达时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>到达机场</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>准点率</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>票价</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>操作</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>180</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="dateTime">
+    <datetime>
+     <hour>0</hour>
+     <minute>0</minute>
+     <second>0</second>
+     <year>2024</year>
+     <month>12</month>
+     <day>9</day>
+    </datetime>
+   </property>
+   <property name="displayFormat">
+    <string>yyyy/MM/dd</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>220</y>
+     <width>500</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>500</width>
+     <height>60</height>
+    </size>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="timeearly">
+      <property name="text">
+       <string>起飞时间从早到晚</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="timelate">
+      <property name="text">
+       <string>起飞时间从晚到早</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pricelow">
+      <property name="text">
+       <string>票价从低到高</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pricehigh">
+      <property name="text">
+       <string>票价从高到低</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>80</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton { background-color: none; border-radius: 3px; color: black; } 
+QPushButton:hover { background-color:rgb(233, 182, 163); }</string>
+   </property>
+   <property name="text">
+    <string>-&gt;返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
